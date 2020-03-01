@@ -6,7 +6,7 @@ namespace PageFactoryCore
     /// <summary>
     /// Factory for pages
     /// </summary>
-    class PageFactory
+    public class PageFactory
     {
         /// <summary>
         /// Instance of IWebDriver

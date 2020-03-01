@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Description>Simple page factory for page object model made with selenium web driver</Description>
+    <Authors>wandelm</Authors>
+    <RepositoryUrl>https://github.com/WandelM/PageFactoryCore</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
