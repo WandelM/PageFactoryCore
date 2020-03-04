@@ -31,9 +31,9 @@ namespace PageFactoryCore
         {
             T pageObject = new T();
 
-            var driverProp = typeof(T).GetProperty(nameof(IPage.Driver));
+            var driverProp = typeof(T).GetProperty(nameof(Driver));
 
-            driverProp.SetValue(driverProp, this.Driver);
+            driverProp.SetValue(pageObject, this.Driver);
 
             return pageObject;
         }

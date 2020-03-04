@@ -6,6 +6,7 @@
     <Description>Simple page factory for page object model made with selenium web driver</Description>
     <Authors>wandelm</Authors>
     <RepositoryUrl>https://github.com/WandelM/PageFactoryCore</RepositoryUrl>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
